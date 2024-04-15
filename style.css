@@ -1,0 +1,80 @@
+body {
+    background-color: rgb(19, 78, 92);
+    color: white;
+}
+
+.nav h1 {
+    font-size: 3rem;
+    margin-left: 2px;
+}
+
+.nav {
+    display: flex;
+    border: 2px;
+    background-color: rgb(15, 149, 151);
+}
+
+.tag {
+    margin-left: 75rem;
+    list-style: none;
+    display: flex;
+    column-gap: 4rem;
+    font-size: 2rem;
+}
+
+.tag li a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.homepage {
+    padding-top: 100px;
+    display: flex;
+    font-size: 3rem;
+    margin-left: 20rem;
+}
+
+.img {
+    padding-right: 15rem;
+    padding-top: 6rem;
+}
+
+.footer{
+    padding-left: 50rem;
+    font-size: 2rem;
+}
+.skills-wrapper{
+    margin-top: 64px;
+}
+.skills{
+    display: flex;
+    list-style: none;
+    gap: 24px;
+    justify-content: center;
+}
+.skill{
+    background-color: white;
+    color: black;
+    padding: 16px 24px;
+    font-size: 24px;
+    font-weight: 600;
+}
+.project{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    gap: 12px;
+}
+.projectimg{
+    display: block;
+    width: 600px;
+    height: auto;
+}
+.projectdesp{
+    padding: 60px 80px;
+    font-size: 24px;
+    line-height: 36px;
+}
+.projectname{
+    font-size: 32px;
+}
